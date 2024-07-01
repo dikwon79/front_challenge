@@ -16,10 +16,11 @@ input {
     background-color: #DDE1D4;
 }
 section {
-    
+    height: 100vh;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr) / auto-flow;
+    
      
 }
 div:first-child {
